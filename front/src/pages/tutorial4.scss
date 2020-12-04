@@ -1,0 +1,20 @@
+.loggingIn{
+    text-align: left;
+    flex-direction: column;
+    padding:55px;
+    display: flex;
+    .img{
+        margin-left: -20px;
+    }
+    .text{
+        font-family: Lato;
+        font-size: small;;
+    }
+
+
+    .startbutton{
+        margin-top: 40px;
+        width: 279px;
+        height: 45px;
+            }
+}

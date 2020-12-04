@@ -1,0 +1,28 @@
+.loginDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:25px;
+    height:92vh;
+    
+    .login{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 50px 0px 25px;
+        div{
+            flex-grow:1;
+        }
+    }
+}
+
+#emailerror {
+    margin:0px;
+    color:red;
+    font-size: 13px;
+}

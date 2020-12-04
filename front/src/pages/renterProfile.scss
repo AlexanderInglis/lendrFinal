@@ -1,0 +1,26 @@
+// .app{
+//     display: flex;
+//     flex-direction: column;
+//     padding:6.93%;
+//     z-index: -1;
+//     overflow-x:hidden;
+//     white-space: nowrap;
+//     height: 100vh;
+// }
+
+.imageDiv{
+    // padding-left: 25px;
+    .images{
+        display: flex; 
+        overflow-x: scroll;
+        justify-content: space-between;
+    }
+} 
+
+
+.nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
